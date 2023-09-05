@@ -356,6 +356,79 @@ body {
   margin: auto;
 }
 
+.footer_logo {
+  width: 170px;
+  height: 78px;
+  margin-top: -6px;
+}
+
+.text-justify {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 15px;
+  width: 185px;
+  padding-left: 10px;
+}
+
+.ul_footer {
+  list-style: none;
+  display: flex;
+}
+
+.footer-links {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.footer-links li a {
+  font-weight: 500;
+  text-decoration: none;
+  color: rgba(22, 6, 55, 1);
+  line-height: 2;
+}
+
+.footer h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer {
+
+  margin-top: 100px;
+  padding-top: 50px;
+  background: white;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container input {
+  border: none;
+  box-shadow: 5px 5px 17px 5px rgba(0, 0, 0, 0.051);
+  height: 40px;
+  padding-left: 10px;
+  font-size: 12px;
+  width: 200px;
+
+}
+
+.input-container i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.footer-section {
+  justify-content: center;
+  gap: 20px;
+}
+
 @media only screen and (min-width: 1200px) {
   .section-3-right__bg {
     transform: translateX(50px);
@@ -391,5 +464,11 @@ body {
 
   100% {
     border-radius: 60% 40% 30% 70%/60% 40% 70% 40%
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px !important;
   }
 }
